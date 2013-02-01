@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DialogButton">
+        <item name="android:layout_width">100sp</item>
+    </style>
+     <style name="Label">
+        <item name="android:layout_width">50sp</item>
+    </style>
+    <style name="TableBorder">
+        <item name="android:background">@drawable/border</item>
+         <item name="android:padding">5dp</item> 
+    </style>
+</resources>

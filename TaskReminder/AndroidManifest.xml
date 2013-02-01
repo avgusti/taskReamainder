@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.taskreminder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" android:targetSdkVersion="7" android:maxSdkVersion="15"/>
+
+    <application
+        android:name=".TaskRemainderApplication"
+        android:icon="@drawable/clock"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".TaskReminderActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="SettingsActivity" >
+        </activity>
+        <activity android:name="TaskListActivity" >
+        </activity>
+        <activity android:name="TaskInfoActivity" >
+        </activity>
+
+        <service android:name=".TaskReminderServiceMyTimer" >
+        </service>
+
+        <activity
+            android:name=".TaskInfoDialogActivity"
+            android:icon="@drawable/clock"
+            android:launchMode="singleTask"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".ListViewTabActivity" >
+
+            <!--
+                  <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <service android:name="TaskReminderService"></service>
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- main -->
+    <string name="app_name">Task Reminder</string>
+	
+	<string name="settings">Settings</string>
+	<string name="exit">Exit</string>
+	<!-- task list -->
+	<string name="tasklist">Task List</string>
+	<string name="today">Today</string>
+	<string name="week">Week</string>
+	<string name="all">All</string>
+	<string name="missed">Missed</string>
+	<string name="taskname">taskName</string>
+	<string name="time">Time</string>
+	<!-- context menu -->
+	<string name="new_str">New</string>
+	<string name="edit">Edit</string>
+	<string name="delete">Delete</string>
+	<!-- Task info -->
+	
+	<string name="name">Name</string>
+	<string name="type">Type</string>
+	<string name="day">Day</string>
+	<string name="date">Date</string>
+	<!-- will reuse from other form <string name="time">Time</string>  -->
+	<string name="message">Message</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	
+	
+	
+	<!-- Settings -->
+	<!-- reuse <string name="settings">Settings</string> -->
+	<string name="sound">Sound notification</string>
+	<string name="autoremove">Auto remove completed tasks</string>
+	<string name="autoremovemissed">Auto remove missed tasks</string>
+	<string name="showtaskin">Show task in</string>
+	<string name="notificatiobar">Notification bar</string>
+	<string name="dialogwindow">Dialog window</string>
+	
+	<!-- dialog -->
+	<string name="ok">OK</string>
+	
+	<!-- exit -->
+	<!-- reuse <string name="exit">Exit</string>-->
+	<string name="wannaexit">Do you want to exit</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	
+	<!-- <string name=""></string> -->
+	
+	
+	<!-- spiners -->
+	<string-array name="Types">
+		<item >Weekly</item>
+		<item >One time</item>
+	</string-array>
+	<string-array name="Weekdays">
+		<item >Sunday</item>
+		<item >Monday</item>
+		<item >Tuesday</item>
+		<item >Wednesday</item>
+		<item >Thursday</item>
+		<item >Friday</item>
+		<item >Saturday</item>
+	</string-array>
+	
+	<!-- messages -->
+
+	<string name="serviceName">Task remainder</string>
+	<string name="showmain">Tap to open.</string>
+	<string name="serviceStoped">Service stoped</string>
+
+	
+	
+	
+	<string name="empty"></string>
+	
+	<string name="r">R</string>
+	
+	<string name="not_scheduled">not scheduled</string>
+	
+	<string name="taskmeassage">taskMeassage</string>
+	
+	<string name="tasktime">taskTime</string>
+</resources>
